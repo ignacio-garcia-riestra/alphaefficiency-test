@@ -1,8 +1,9 @@
 #faq-section {
     box-sizing: border-box;
     position: relative;
-    height: 1446px;
+    height: fit-content;
     padding-top: 98px;
+    padding-bottom: 106px;
 }
 
 #faq-section h2 {
@@ -25,13 +26,30 @@
     padding: 20px;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+}
+
+#faq-section .question-row {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.list-item div {
+.question-row div {
     margin-right: 42px;
     padding: 3.91px 7px 0px;
+}
+
+.list-item .answer-row {
+    display: none;
+}
+
+.list-item .show {
+    display: contents;
+}
+
+.list-item .up-direction {
+    transform: rotate(180deg);
 }
 
 #faq-section .booking {
