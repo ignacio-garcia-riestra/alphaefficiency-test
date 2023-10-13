@@ -2,8 +2,8 @@
 
 body {
     box-sizing: border-box;
-    min-width: 1600px;
-    max-width: 1920px;
+    min-width: 702px;
+    max-width: 1599px;
     font-family: 'Montserrat';    
 }
 
@@ -13,18 +13,18 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 45px;
-    line-height: 67.5px;
+    font-size: 30px;
+    line-height: 48px;
 }
 
 h2 {
-    font-size: 32px;
-    line-height: 51px;
+    font-size: 24px;
+    line-height: 38.4px;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 41px;
+    font-size: 18px;
+    line-height: 31.05px;
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 .container {
-    width: 59.375%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -66,4 +66,27 @@ p {
     padding: 10px 14px;
     text-align: center;
     vertical-align: middle;
+}
+
+@media (min-width: 1600px) {
+    body {
+        min-width: 1600px;
+        max-width: 1920px;    
+    };
+    h1 {
+        font-size: 45px;
+        line-height: 67.5px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 51px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .container {
+        width: 59.375%;
+    }
 }
