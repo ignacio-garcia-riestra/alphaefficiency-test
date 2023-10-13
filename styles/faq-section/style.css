@@ -1,0 +1,63 @@
+#faq-section {
+    box-sizing: border-box;
+    position: relative;
+    height: 1446px;
+    padding-top: 98px;
+}
+
+#faq-section h2 {
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+#faq-section .list {
+    margin: 64px 0px 83px 2px;
+    padding-right: 3px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#faq-section .list-item {
+    background-color: #F9F9F9;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-item div {
+    margin-right: 42px;
+    padding: 3.91px 7px 0px;
+}
+
+#faq-section .booking {
+    align-self: center;
+}
+
+#faq-section-left {
+    border-color: #F9F9F9;
+    width: 410px;
+    height: 410px;
+    top: 728px;
+    left: -190px;
+}
+
+#faq-section-top-right {
+    border-color: #F9F9F9;
+    width: 269px;
+    height: 269px;
+    top: 147px;
+    left: 1590px;
+}
+
+#faq-section-bottom-right {
+    border-color: #F9F9F9;
+    width: 124px;
+    height: 124px;
+    top: 1051px;
+    left: 1590px;
+}

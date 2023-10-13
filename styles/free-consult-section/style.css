@@ -1,0 +1,94 @@
+#free-consultation {
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+    position: relative;
+    height: 796px;
+    padding-top: 102px;
+}
+
+#free-consultation .container {
+    width: 51.771%;
+}
+
+#free-consultation h2 {
+    margin: 0 auto 64px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#free-consultation span {
+    color: #DD71C6;
+}
+
+#free-consultation .card {
+    height: 391px;
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    padding-top: 28px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#free-consultation h3 {
+    margin: 0;
+}
+
+#free-consultation ul {
+    width: 380px;
+    margin: 0;
+}
+
+#free-consultation li {
+    margin-bottom: 20px;
+    line-height: 27.82px;
+}
+
+::marker {
+    font-size: x-small;
+}
+
+#free-consultation .booking {
+    margin-top: 88px;
+    align-self: center;
+}
+
+#left-card h3 {
+    color: #0083D3;
+}
+
+#left-card div {
+    width: 380px;
+    border-top: #0083D3 solid 1px;
+}
+
+#right-card h3 {
+    color: #DD71C6;
+}
+
+#right-card div {
+    width: 380px;
+    border-top: #DD71C6 solid 1px;
+}
+
+#free-consultation-section-left {
+    width: 386px;
+    height: 386px;
+    top: 192px;
+    left: -193px;
+}
+
+#free-consultation-section-top-right {
+    width: 279px;
+    height: 279px;
+    top: 31px;
+    left: 1530px;
+}
+
+#free-consultation-section-mid-right {
+    width: 158px;
+    height: 158px;
+    top: 456px;
+    left: 1530px;
+}

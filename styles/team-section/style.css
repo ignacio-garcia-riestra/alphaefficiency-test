@@ -1,0 +1,33 @@
+#team-picture-section {
+    box-sizing: border-box;
+    position: relative;
+    height: 794px;
+    padding-top: 89px;
+}
+
+#team-picture-section .container {
+    align-items: center;
+}
+
+#team-picture-section h1 {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#team-picture-section span {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 25px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#team-picture-section .booking {
+    margin-top: 9px;
+}
+
+#team-picture-section img {
+    margin-top: 29px;
+}
