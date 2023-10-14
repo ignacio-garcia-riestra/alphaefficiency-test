@@ -24,6 +24,27 @@ const countdown = () => {
 setInterval(countdown, 1000);
 
 
+// BURGUER MENU
+
+const headerSection = document.querySelector('#header');
+const burguerMenu = document.querySelector('.burguer-menu');
+const navItems = document.querySelector('.nav-items');
+
+const handleNavItems = () => {
+    if (headerSection.clientWidth < 1600) {
+        navItems.classList.add('hidden')
+    } else {
+        navItems.classList.remove('hidden')
+    }
+}
+
+window.addEventListener('resize', handleNavItems);
+
+burguerMenu.addEventListener('click', () => {
+    navItems.classList.toggle('hidden')
+})
+
+
 // FAQ SECTION DROPDOWNS
 
 const questions = [
@@ -60,11 +81,11 @@ questions.forEach(question => {
     item.classList.add('list-item');
     questionRow.classList.add('question-row');
     questionText.innerText = question;
-    answerRow.classList.add('answer-row');
+    answerRow.classList.add('answer-row', 'hidden');
     dropImage.setAttribute('src', './assets/images/dropdown.svg');
     answer.innerHTML = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, consequuntur dignissimos assumenda, cupiditate repellendus, eum maiores est accusantium laborum soluta debitis unde doloremque doloribus laudantium beatae nulla quibusdam voluptates perferendis.'
     dropImage.addEventListener('click', () => {
-        answerRow.classList.toggle('show');
+        answerRow.classList.toggle('hidden');
         dropImage.classList.toggle('up-direction');
     })
      

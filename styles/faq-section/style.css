@@ -40,10 +40,6 @@
     padding: 3.91px 7px 0px;
 }
 
-.list-item .answer-row {
-    display: none;
-}
-
 .list-item .show {
     display: contents;
 }
